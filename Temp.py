@@ -6,4 +6,4 @@
 
 # git commit -m "Message name"
 
-# git push original branch
+# git push origin branch
