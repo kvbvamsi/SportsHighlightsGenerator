@@ -1,0 +1,111 @@
+app:
+name: Sports Highlight Generator
+version: 1.0.0
+environment: development
+
+llm:
+provider: vllm
+model_name: Qwen3-30B-A3B
+base_url: http://localhost:8000/v1
+api_key: abc-123
+temperature: 0.2
+max_tokens: 4096
+
+gpu:
+platform: amd
+device: MI300X
+use_fp16: true
+batch_size: 8
+
+video:
+fps_sampling: 1
+clip_padding_before: 5
+clip_padding_after: 10
+max_video_length_minutes: 180
+output_resolution: 1280x720
+
+audio:
+whisper_model: large-v3
+sample_rate: 16000
+crowd_noise_threshold: 0.75
+
+ocr:
+engine: trocr
+trocr_model: microsoft/trocr-base-printed
+fallback_engine: paddleocr
+
+vision:
+action_model: MCG-NJU/videomae-base
+confidence_threshold: 0.80
+
+ranking:
+six_weight: 9
+four_weight: 6
+wicket_weight: 10
+catch_weight: 8
+runout_weight: 8
+crowd_weight: 0.30
+commentary_weight: 0.30
+scoreboard_weight: 0.40
+
+highlight:
+max_clips: 15
+min_event_score: 7.0
+generate_narration: true
+generate_subtitles: true
+
+storage:
+input_dir: data/input
+frames_dir: data/frames
+clips_dir: data/clips
+output_dir: outputs
+
+agents:
+root_agent:
+enabled: true
+
+video_agent:
+enabled: true
+
+audio_agent:
+enabled: true
+
+scoreboard_agent:
+enabled: true
+
+event_agent:
+enabled: true
+
+ranking_agent:
+enabled: true
+
+narrative_agent:
+enabled: true
+
+packaging_agent:
+enabled: true
+
+mcp_servers:
+video_server:
+host: localhost
+port: 9001
+
+audio_server:
+host: localhost
+port: 9002
+
+ocr_server:
+host: localhost
+port: 9003
+
+ranking_server:
+host: localhost
+port: 9004
+
+streamlit:
+host: 0.0.0.0
+port: 8501
+
+logging:
+level: INFO
+file: logs/application.log

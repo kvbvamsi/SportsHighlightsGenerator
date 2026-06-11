@@ -1,0 +1,81 @@
+# Core Agent Frameworks
+
+google-adk
+litellm
+pydantic-ai-slim[mcp]
+pydantic
+fastmcp
+mcp
+
+# LLM & Inference
+
+openai
+vllm
+transformers
+accelerate
+sentencepiece
+huggingface_hub
+
+# Vision Models
+
+torch
+torchvision
+timm
+opencv-python
+pillow
+
+# OCR
+
+paddleocr
+paddlepaddle
+easyocr
+
+# Speech & Audio
+
+openai-whisper
+librosa
+soundfile
+ffmpeg-python
+
+# Video Processing
+
+moviepy
+imageio
+imageio-ffmpeg
+
+# Data Processing
+
+numpy
+pandas
+scikit-learn
+scipy
+
+# APIs & Utilities
+
+requests
+httpx
+aiohttp
+python-dotenv
+pyyaml
+
+# Web UI
+
+streamlit
+gradio
+
+# Async & Serving
+
+uvicorn
+fastapi
+
+# Logging & Monitoring
+
+loguru
+rich
+tqdm
+
+# Optional AMD Optimizations
+
+optimum
+datasets
+evaluate
