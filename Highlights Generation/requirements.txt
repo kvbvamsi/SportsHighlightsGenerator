@@ -1,0 +1,35 @@
+# FlashBoundary — Cricket Highlight Generator
+# AMD MI300X GPU setup (AUM Hackathon)
+
+# Core
+streamlit>=1.35.0
+pandas>=2.0.0
+requests>=2.31.0
+Pillow>=10.0.0
+
+# LLM / Agent frameworks (from workshop notebooks)
+pydantic-ai-slim>=0.0.14
+openai>=1.30.0
+
+# GPU inference (AMD MI300X via ROCm)
+# vllm>=0.4.0  # install separately: pip install vllm --extra-index-url https://download.pytorch.org/whl/rocm6.0
+
+# Audio transcription (AMD GPU accelerated)
+faster-whisper>=1.0.0
+# fallback: openai-whisper>=20231117
+
+# Computer vision / OCR
+easyocr>=1.7.0
+pytesseract>=0.3.10
+
+# Audio analysis
+soundfile>=0.12.1
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Video processing
+# ffmpeg must be installed system-wide: apt install ffmpeg
+
+# Optional: Google ADK (from Tutorial_Powering_Google_ADK notebook)
+# google-adk>=0.3.0
+# litellm>=1.40.0
