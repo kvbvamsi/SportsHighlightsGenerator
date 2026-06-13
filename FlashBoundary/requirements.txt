@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+paddleocr
+faster-whisper
+openai
+ffmpeg-python
+pandas
+google-adk

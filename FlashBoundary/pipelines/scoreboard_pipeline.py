@@ -1,0 +1,1 @@
+class ScoreboardPipeline: pass

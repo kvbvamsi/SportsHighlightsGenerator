@@ -1,0 +1,1 @@
+class WhisperPipeline: pass

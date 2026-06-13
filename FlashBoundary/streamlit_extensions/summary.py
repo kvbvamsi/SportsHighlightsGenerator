@@ -1,0 +1,1 @@
+def render_summary(summary): return summary

@@ -1,0 +1,1 @@
+def render_dashboard(events): return events

@@ -1,0 +1,1 @@
+class SupervisorAgent: pass

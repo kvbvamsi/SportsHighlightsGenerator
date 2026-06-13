@@ -4,33 +4,73 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 
 
-# -----------------------------------------
-# OCR
-# -----------------------------------------
+# =====================================================
+# VIDEO FRAME SCHEMA
+# =====================================================
+
+class FrameData(BaseModel):
+    """
+    Stores extracted video frame information.
+    """
+
+    frame_id: int
+
+    timestamp: float
+
+    image_path: str
+
+    width: Optional[int] = None
+
+    height: Optional[int] = None
+
+
+
+# =====================================================
+# OCR OUTPUT
+# =====================================================
 
 class OCRResult(BaseModel):
+
+    frame_id: int
+
     timestamp: float
+
     text: str
 
 
-# -----------------------------------------
-# Audio
-# -----------------------------------------
+
+# =====================================================
+# AUDIO / COMMENTARY ANALYSIS
+# =====================================================
 
 class AudioEvent(BaseModel):
+
     timestamp: float
+
     transcript: str
+
     excitement_score: float = 0.0
 
 
-# -----------------------------------------
-# Event Detection
-# -----------------------------------------
+
+# =====================================================
+# SPORTS EVENT DETECTION
+# =====================================================
 
 class EventData(BaseModel):
 
     event_type: str = Field(
-        description="FOUR, SIX, WICKET, GOAL, SHOT, SAVE"
+        description=
+        """
+        Cricket events:
+        FOUR
+        SIX
+        WICKET
+        CATCH
+        RUNOUT
+        BOUNDARY
+        CELEBRATION
+        """
     )
 
     timestamp: float
@@ -41,10 +81,13 @@ class EventData(BaseModel):
 
     commentary: Optional[str] = None
 
+    frame_id: Optional[int] = None
 
-# -----------------------------------------
-# Ranked Event
-# -----------------------------------------
+
+
+# =====================================================
+# EVENT RANKING
+# =====================================================
 
 class RankedEvent(BaseModel):
 
@@ -55,9 +98,10 @@ class RankedEvent(BaseModel):
     rank: int
 
 
-# -----------------------------------------
-# Highlight Segment
-# -----------------------------------------
+
+# =====================================================
+# HIGHLIGHT SEGMENT
+# =====================================================
 
 class HighlightSegment(BaseModel):
 
@@ -70,9 +114,10 @@ class HighlightSegment(BaseModel):
     score: float
 
 
-# -----------------------------------------
-# Final Output
-# -----------------------------------------
+
+# =====================================================
+# FINAL OUTPUT
+# =====================================================
 
 class HighlightOutput(BaseModel):
 
@@ -85,9 +130,10 @@ class HighlightOutput(BaseModel):
     generated_at: str
 
 
-# -----------------------------------------
-# Agent Response
-# -----------------------------------------
+
+# =====================================================
+# AGENT RESPONSE
+# =====================================================
 
 class AgentResponse(BaseModel):
 
@@ -98,9 +144,10 @@ class AgentResponse(BaseModel):
     data: Optional[dict] = None
 
 
-# -----------------------------------------
-# MCP Request
-# -----------------------------------------
+
+# =====================================================
+# MCP MESSAGE FORMAT
+# =====================================================
 
 class MCPRequest(BaseModel):
 
@@ -109,9 +156,6 @@ class MCPRequest(BaseModel):
     context: Optional[dict] = None
 
 
-# -----------------------------------------
-# MCP Response
-# -----------------------------------------
 
 class MCPResponse(BaseModel):
 
