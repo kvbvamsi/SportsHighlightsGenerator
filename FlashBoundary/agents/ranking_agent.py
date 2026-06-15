@@ -1,1 +1,0 @@
-class RankingAgent: pass

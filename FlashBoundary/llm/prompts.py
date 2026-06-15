@@ -1,1 +1,0 @@
-SUMMARY_PROMPT='Summarize cricket match events'
