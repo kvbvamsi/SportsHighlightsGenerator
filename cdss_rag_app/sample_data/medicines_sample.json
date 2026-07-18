@@ -1,0 +1,200 @@
+[
+  {
+    "medicine_name": "Metformin",
+    "generic_name": "Metformin HCl",
+    "drug_class": "Biguanide",
+    "disease_condition": "Type 2 Diabetes Mellitus",
+    "common_symptoms": "increased thirst, frequent urination, fatigue, blurred vision, unexplained weight loss",
+    "relevant_lab_markers": "Fasting Glucose >= 126 mg/dL, HbA1c >= 6.5%",
+    "standard_dosage": "500 mg twice daily with meals, titrate up to 2000 mg/day max",
+    "contraindications": "severe renal impairment, metabolic acidosis, pregnancy (relative)",
+    "side_effects": "GI upset, diarrhea, vitamin B12 deficiency (long term)"
+  },
+  {
+    "medicine_name": "Glimepiride",
+    "generic_name": "Glimepiride",
+    "drug_class": "Sulfonylurea",
+    "disease_condition": "Type 2 Diabetes Mellitus",
+    "common_symptoms": "increased thirst, frequent urination, fatigue",
+    "relevant_lab_markers": "HbA1c >= 7% despite Metformin, Fasting Glucose >= 126 mg/dL",
+    "standard_dosage": "1-2 mg once daily before breakfast, max 8 mg/day",
+    "contraindications": "type 1 diabetes, sulfa allergy, severe hepatic/renal disease",
+    "side_effects": "hypoglycemia, weight gain"
+  },
+  {
+    "medicine_name": "Amlodipine",
+    "generic_name": "Amlodipine besylate",
+    "drug_class": "Calcium Channel Blocker",
+    "disease_condition": "Hypertension",
+    "common_symptoms": "headache, dizziness, blurred vision, often asymptomatic",
+    "relevant_lab_markers": "Systolic BP >= 140 mmHg or Diastolic BP >= 90 mmHg",
+    "standard_dosage": "5 mg once daily, max 10 mg/day",
+    "contraindications": "severe aortic stenosis, known hypersensitivity",
+    "side_effects": "ankle edema, flushing, headache"
+  },
+  {
+    "medicine_name": "Losartan",
+    "generic_name": "Losartan potassium",
+    "drug_class": "ARB",
+    "disease_condition": "Hypertension",
+    "common_symptoms": "headache, dizziness, often asymptomatic",
+    "relevant_lab_markers": "Systolic BP >= 140 mmHg or Diastolic BP >= 90 mmHg, especially with proteinuria",
+    "standard_dosage": "50 mg once daily, max 100 mg/day",
+    "contraindications": "pregnancy, bilateral renal artery stenosis, hyperkalemia",
+    "side_effects": "dizziness, hyperkalemia, cough (less than ACE inhibitors)"
+  },
+  {
+    "medicine_name": "Amoxicillin-Clavulanate",
+    "generic_name": "Co-amoxiclav",
+    "drug_class": "Beta-lactam antibiotic",
+    "disease_condition": "Bacterial Respiratory Infection",
+    "common_symptoms": "productive cough, fever, chest congestion, purulent sputum, difficulty breathing",
+    "relevant_lab_markers": "WBC Count > 11000 /uL, CRP > 10 mg/L, ESR elevated",
+    "standard_dosage": "625 mg three times daily for 5-7 days",
+    "contraindications": "penicillin allergy, history of cholestatic jaundice with amoxicillin-clavulanate",
+    "side_effects": "diarrhea, nausea, rash"
+  },
+  {
+    "medicine_name": "Azithromycin",
+    "generic_name": "Azithromycin",
+    "drug_class": "Macrolide antibiotic",
+    "disease_condition": "Bacterial Respiratory Infection",
+    "common_symptoms": "productive cough, fever, chest congestion",
+    "relevant_lab_markers": "WBC Count > 11000 /uL, CRP > 10 mg/L",
+    "standard_dosage": "500 mg on day 1, then 250 mg once daily for 4 days",
+    "contraindications": "known macrolide allergy, severe hepatic impairment, QT prolongation risk",
+    "side_effects": "GI upset, QT prolongation (rare)"
+  },
+  {
+    "medicine_name": "Paracetamol",
+    "generic_name": "Acetaminophen",
+    "drug_class": "Antipyretic/Analgesic",
+    "disease_condition": "Common Cold / Viral URI / Fever",
+    "common_symptoms": "fever, body ache, headache, sore throat, runny nose, mild cough",
+    "relevant_lab_markers": "WBC Count normal or mildly elevated, CRP mildly elevated or normal",
+    "standard_dosage": "500-650 mg every 6 hours as needed, max 3000 mg/day",
+    "contraindications": "severe hepatic impairment, chronic alcohol use",
+    "side_effects": "hepatotoxicity in overdose"
+  },
+  {
+    "medicine_name": "Cetirizine",
+    "generic_name": "Cetirizine HCl",
+    "drug_class": "Antihistamine",
+    "disease_condition": "Allergic Rhinitis / Common Cold",
+    "common_symptoms": "runny nose, sneezing, itchy eyes, nasal congestion",
+    "relevant_lab_markers": "Eosinophil count may be mildly elevated",
+    "standard_dosage": "10 mg once daily",
+    "contraindications": "severe renal impairment (dose adjust), known hypersensitivity",
+    "side_effects": "drowsiness, dry mouth"
+  },
+  {
+    "medicine_name": "Salbutamol Inhaler",
+    "generic_name": "Albuterol",
+    "drug_class": "Short-acting Beta-2 agonist",
+    "disease_condition": "Bronchial Asthma",
+    "common_symptoms": "wheezing, shortness of breath, chest tightness, cough at night",
+    "relevant_lab_markers": "Reduced peak expiratory flow rate (PEFR), eosinophilia",
+    "standard_dosage": "2 puffs (200 mcg) as needed, max 8 puffs/day",
+    "contraindications": "known hypersensitivity, caution in cardiac arrhythmia",
+    "side_effects": "tremor, tachycardia, palpitations"
+  },
+  {
+    "medicine_name": "Budesonide-Formoterol Inhaler",
+    "generic_name": "Budesonide/Formoterol",
+    "drug_class": "ICS/LABA",
+    "disease_condition": "Bronchial Asthma (persistent)",
+    "common_symptoms": "frequent wheezing, nocturnal cough, shortness of breath on exertion",
+    "relevant_lab_markers": "Reduced FEV1, elevated eosinophil count",
+    "standard_dosage": "1-2 puffs twice daily",
+    "contraindications": "untreated fungal/bacterial/viral respiratory infections, milk protein allergy (for some formulations)",
+    "side_effects": "oral thrush, hoarseness, headache"
+  },
+  {
+    "medicine_name": "Omeprazole",
+    "generic_name": "Omeprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "disease_condition": "GERD (Acid Reflux)",
+    "common_symptoms": "heartburn, regurgitation, chest burning after meals, sour taste in mouth",
+    "relevant_lab_markers": "usually clinical diagnosis; endoscopy if alarm features",
+    "standard_dosage": "20 mg once daily before breakfast, for 4-8 weeks",
+    "contraindications": "known hypersensitivity to PPIs, concurrent rilpivirine use",
+    "side_effects": "headache, abdominal pain, long-term risk of B12/magnesium deficiency"
+  },
+  {
+    "medicine_name": "Ferrous Sulfate",
+    "generic_name": "Ferrous sulfate",
+    "drug_class": "Iron supplement",
+    "disease_condition": "Iron Deficiency Anemia",
+    "common_symptoms": "fatigue, pallor, weakness, shortness of breath on exertion, brittle nails",
+    "relevant_lab_markers": "Hemoglobin < 12 g/dL (female) / < 13.5 g/dL (male), low ferritin, low MCV",
+    "standard_dosage": "325 mg (65 mg elemental iron) once to twice daily",
+    "contraindications": "hemochromatosis, hemolytic anemia, active peptic ulcer (relative)",
+    "side_effects": "constipation, black stools, GI upset"
+  },
+  {
+    "medicine_name": "Levothyroxine",
+    "generic_name": "Levothyroxine sodium",
+    "drug_class": "Thyroid hormone replacement",
+    "disease_condition": "Hypothyroidism",
+    "common_symptoms": "fatigue, weight gain, cold intolerance, dry skin, constipation, hair thinning",
+    "relevant_lab_markers": "TSH > 4.0 mIU/L with low Free T4",
+    "standard_dosage": "25-50 mcg once daily on empty stomach, titrate per TSH",
+    "contraindications": "untreated adrenal insufficiency, acute MI, hyperthyroidism",
+    "side_effects": "palpitations, insomnia, weight loss if overdosed"
+  },
+  {
+    "medicine_name": "Atorvastatin",
+    "generic_name": "Atorvastatin calcium",
+    "drug_class": "Statin",
+    "disease_condition": "Hyperlipidemia / Dyslipidemia",
+    "common_symptoms": "often asymptomatic, may have xanthomas in severe cases",
+    "relevant_lab_markers": "LDL >= 160 mg/dL, Total Cholesterol >= 240 mg/dL, Triglycerides >= 200 mg/dL",
+    "standard_dosage": "10-20 mg once daily at night, titrate per lipid panel",
+    "contraindications": "active liver disease, pregnancy, breastfeeding",
+    "side_effects": "myalgia, elevated liver enzymes"
+  },
+  {
+    "medicine_name": "Nitrofurantoin",
+    "generic_name": "Nitrofurantoin",
+    "drug_class": "Urinary antiseptic/antibiotic",
+    "disease_condition": "Urinary Tract Infection",
+    "common_symptoms": "burning urination, urinary frequency, urgency, lower abdominal pain, cloudy urine",
+    "relevant_lab_markers": "Urine WBC elevated, positive nitrites/leukocyte esterase, WBC Count mildly elevated",
+    "standard_dosage": "100 mg twice daily for 5 days",
+    "contraindications": "severe renal impairment (CrCl < 60), G6PD deficiency, near-term pregnancy",
+    "side_effects": "nausea, pulmonary toxicity (long term), urine discoloration"
+  },
+  {
+    "medicine_name": "Sumatriptan",
+    "generic_name": "Sumatriptan succinate",
+    "drug_class": "Triptan",
+    "disease_condition": "Migraine",
+    "common_symptoms": "throbbing unilateral headache, nausea, photophobia, phonophobia",
+    "relevant_lab_markers": "usually clinical diagnosis; labs generally normal",
+    "standard_dosage": "50-100 mg orally at onset, max 200 mg/day",
+    "contraindications": "coronary artery disease, uncontrolled hypertension, history of stroke",
+    "side_effects": "chest tightness, tingling, dizziness"
+  },
+  {
+    "medicine_name": "Ibuprofen",
+    "generic_name": "Ibuprofen",
+    "drug_class": "NSAID",
+    "disease_condition": "Osteoarthritis / Musculoskeletal Pain",
+    "common_symptoms": "joint pain, stiffness, swelling, pain with movement",
+    "relevant_lab_markers": "CRP/ESR may be mildly elevated in inflammatory flares",
+    "standard_dosage": "400 mg every 6-8 hours with food, max 1200 mg/day OTC",
+    "contraindications": "active peptic ulcer, severe renal impairment, third trimester pregnancy",
+    "side_effects": "GI bleeding risk, renal impairment, fluid retention"
+  },
+  {
+    "medicine_name": "Escitalopram",
+    "generic_name": "Escitalopram oxalate",
+    "drug_class": "SSRI",
+    "disease_condition": "Generalized Anxiety Disorder / Depression",
+    "common_symptoms": "persistent worry, low mood, sleep disturbance, poor concentration, fatigue",
+    "relevant_lab_markers": "no specific lab marker; clinical/psychometric diagnosis",
+    "standard_dosage": "10 mg once daily, may increase to 20 mg/day",
+    "contraindications": "concurrent MAOI use, QT prolongation",
+    "side_effects": "nausea, sexual dysfunction, initial jitteriness"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "symptoms": "increased thirst, frequent urination, fatigue, blurred vision",
+  "medical_history": "No known drug allergies. No prior renal disease. Family history of diabetes.",
+  "diagnosed_disease": "Type 2 Diabetes Mellitus",
+  "lab_report": {
+    "Fasting Glucose": 158,
+    "HbA1c": 7.8,
+    "Hemoglobin": 13.2
+  }
+}
